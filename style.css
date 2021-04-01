@@ -41,6 +41,7 @@ p {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding: 4em 0;
 }
 
 .row {
@@ -53,4 +54,28 @@ p {
 
 .col + .col {
   margin: 1.5em;
+}
+
+/* banner layout */
+.banner {
+  background-color: #23424A;
+}
+
+.banner__text {
+  color: white;
+}
+
+.banner__btn {
+  display: inline-block;
+  background-color: #38CFD9;
+  color: white;
+  text-decoration: none;
+  margin-top: 2em;
+  padding: .75em 1.25em;
+  border-radius: 100px;
+}
+
+.banner__img {
+  width: 40%;
+  max-width: 100%;
 }
