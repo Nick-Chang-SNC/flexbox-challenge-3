@@ -59,6 +59,44 @@ p {
 }
 
 /* navbar layout */
+.navbar {
+  background-color: #136C72;
+}
+
+.navbar__container {
+  margin: 0 auto;
+  width: 80%;
+  padding: .5em 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-1,
+.nav-2 {
+  list-style: none;
+}
+
+.list-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.list-link:hover,
+.list-link:focus {
+  opacity: .75;
+}
+
+.list-item + .list-item {
+  margin-left: .75em;
+}
+
+.list-btn {
+  background-color: white;
+  color: #136C72;
+  padding: .5em 1em;
+  border-radius: 100px;
+}
 
 /* banner layout */
 .banner {
